@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Condensed-Black.eot');
+    src: url('../fonts/Helvetica-Condensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Helvetica-Condensed-Black.woff2') format('woff2'),
+        url('../fonts/Helvetica-Condensed-Black.woff') format('woff'),
+        url('../fonts/Helvetica-Condensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas-Regular.eot');
+    src: url('../fonts/Bebas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Bebas-Regular.woff2') format('woff2'),
+        url('../fonts/Bebas-Regular.woff') format('woff'),
+        url('../fonts/Bebas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas-Regular_1.eot');
+    src: url('../fonts/Bebas-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Bebas-Regular_1.woff2') format('woff2'),
+        url('../fonts/Bebas-Regular_1.woff') format('woff'),
+        url('../fonts/Bebas-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* colors */
+:root {
+    --main-red: #b20e00;
+    --main-grey: #292929;
+    --secondary-grey: #434343;
+    --main-white: #ffffff;
+}
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+body,ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+/* fonts */
+
+/* flex classes */
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.align-start {
+    align-items: flex-start;
+}
+.align-end {
+    align-items: flex-end;
+}
+.flex-column {
+    flex-direction: column;
+}
+/* text color */
+.text-red {
+    color: var(--main-red);
+}
+.text-dark-grey {
+    color: var(--main-grey);
+}
+.text-white {
+    color: var(--main-white);
+}
+/* others */
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.borderless {
+    border: none;
+}
+.rounded {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.transitioned {
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.pointer {
+    cursor: pointer;
+}
+
+/* start first navbar */
+header .nav-wrapper:first-of-type {
+    background-image: url(../images/bg/top-nav\ gradient.png);
+}
+header .nav-wrapper:first-of-type nav ul li {
+    margin-right: 12px;
+}
+header .nav-wrapper:first-of-type nav ul li::marker {
+    color: var(--main-white);
+}
