@@ -489,11 +489,11 @@ header {
 
 @keyframes ticker {
     100% {
-        transform: translate3d(-120%, 0, 0);
-        -webkit-transform: translate3d(-120%, 0, 0);
-        -moz-transform: translate3d(-120%, 0, 0);
-        -ms-transform: translate3d(-120%, 0, 0);
-        -o-transform: translate3d(-120%, 0, 0);
+        transform: translate3d(-180%, 0, 0);
+        -webkit-transform: translate3d(-180%, 0, 0);
+        -moz-transform: translate3d(-180%, 0, 0);
+        -ms-transform: translate3d(-180%, 0, 0);
+        -o-transform: translate3d(-180%, 0, 0);
     }
 }
 
@@ -508,10 +508,9 @@ header {
 }
 
 .ticker-wrapper {
-    animation-timing-function: linear;
-    animation: ticker 15s infinite;
-    -webkit-animation: ticker 15s infinite;
-    white-space: nowrap;
+    transform: translateX(180%);
+    animation: 10s linear 3s infinite ticker;
+    -webkit-animation: 10s linear 3s infinite ticker;
 }
 
 .ticker-wrapper:hover {
