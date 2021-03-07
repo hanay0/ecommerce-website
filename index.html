@@ -4,37 +4,436 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>E-commerce website</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smart Investor</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- start navbar -->
-        <header class="d-flex justify-start align-start">
-            <div class="nav-wrapper d-flex-justify-center align-center w-100">
-                <div class="container">
-                    <nav class="d-flex justify-start align-start">
-                        <ul class="d-flex justify-center align-center">
-                            <li class="d-flex justify-center align-center"><a href="#" class="text-capitalize pointer text-white">account sign in</a></li>
-                            <li class="d-flex justify-center align-center"><a href="#" class="text-capitalize pointer text-white">register</a></li>
-                            <li class="d-flex justify-center align-center"><a href="#" class="text-capitalize pointer text-white">buyers guide</a></li>
-                            <li class="d-flex justify-center align-center"><a href="#" class="text-capitalize pointer text-white">about</a></li>
-                            <li class="d-flex justify-center align-center"><a href="#" class="text-capitalize pointer text-white">blog</a></li>
-                            <li class="d-flex justify-center align-center"><a href="#" class="text-capitalize pointer text-white">contact</a></li>
-                        </ul>
-                    </nav>
+    <!-- start header -->
+    <header class="header-wrapper d-flex justify-center align-center background-size-100">
+        <!-- start top navigation bar -->
+        <div class="container">
+            <!-- start top nav -->
+            <nav class="top-nav d-flex justify-end align-center font-size-11">
+                <p class="text-grey">24 JAN 10</p>
+                <div class="dark-grey-links d-flex justify-center align-center background-repeat-x">
+                    <a href="#" class="text-uppercase text-white position-relative">
+                                    about us
+                                    <img src="images/icons/orange-arrow-bottom.png" alt="bottom-arrow">
+                                </a>
+                    <a href="#" class="text-uppercase text-white position-relative">
+                        <span>contact us</span>
+                    </a>
+                    <a href="#" class="text-uppercase text-white position-relative">
+                                    help
+                                    <img src="images/icons/orange-arrow-bottom.png" alt="bottom-arrow">
+                                </a>
+                </div>
+                <div class="light-grey-links d-flex justify-center align-center background-repeat-x">
+                    <a href="#" class="text-uppercase text-white">
+                        <span>welcome john addis</span>
+                    </a>
+                    <a href="#" class="d-flex justify-center align-center text-uppercase text-white position-relative">
+                        <span>logout</span>
+                        <img src="images/icons/icon-user.png" alt="user-icon">
+                    </a>
+                    <a href="#" class="text-uppercase text-white position-relative font-bold">
+                        <span>join now</span>
+                    </a>
+                </div>
+            </nav>
+            <!-- logo and search wrapper -->
+            <div class="logo-wrapper d-flex justify-between align-center">
+                <!-- logo -->
+                <a href="#" class="d-flex justify-center align-center"><img src="images/icons/logo.png" alt="lgog"></a>
+                <!-- search bar and go button -->
+                <div class="search-bar d-flex justify-center align-center position-relative">
+                    <input type="text" name="search" id="search" class="borderless position-absolute" placeholder="Axs Code, Company name or Keyword">
+                    <input type="submit" class="borderless font-bold text-white position-absolute pointer" value="GO">
+                </div>
             </div>
+
+            <!-- start bottom nav -->
+            <nav class="bottom-nav d-flex justify-between align-center background-repeat-x background-size-100">
+                <a href="#" class="text-capitalize text-white transitioned position-relative background-repeat-x background-size-100">all the latest</a>
+                <a href="#" class="text-capitalize text-white transitioned position-relative background-repeat-x background-size-100">recommendations</a>
+                <a href="#" class="text-capitalize text-white transitioned position-relative background-repeat-x background-size-100">companies</a>
+                <a href="#" class="text-capitalize text-white transitioned position-relative background-repeat-x background-size-100">portfolios</a>
+                <a href="#" class="text-capitalize text-white transitioned position-relative background-repeat-x background-size-100">investor's college</a>
+                <a href="#" class="text-uppercase text-white font-bold background-repeat-x background-size-100">sign up today</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- start sub-categories menu -->
+    <div class="sub-menu d-flex justify-center align-center background-repeat-x background-size-100">
+        <div class="container">
+            <div class="sub-menu-wrapper d-flex justify-start align-center">
+                <a href="#" class="font-bold text-black text-capitalize position-relative font-size-13">recent changes</a>
+                <a href="#" class="font-bold text-black text-capitalize position-relative font-size-13">byus</a>
+                <a href="#" class="font-bold text-black text-capitalize position-relative font-size-13">sells</a>
+                <a href="#" class="font-bold text-black text-capitalize position-relative font-size-13">holds</a>
+                <a href="#" class="font-bold text-black text-capitalize font-size-13">recommendation terms</a>
             </div>
-        </header>
-        
-        <script src="js/" async defer></script>
-    </body>
+        </div>
+    </div>
+
+    <!-- start special alert section -->
+    <div class="special-alert d-flex justify-center align-center w-100">
+        <div class="container">
+            <div class="special-alert-wrapper d-flex justify-start align-center background-repeat-x">
+                <div class="special-alert-title d-flex justify-center align-center background-size-100">
+                    <p class="text-uppercase font-bold">special alert</p>
+                </div>
+                <div class="alert-description d-flex justify-start align-center background-repeat-x background-size-100">
+                    <div class="ticker-wrapper d-flex justify-center align-center">
+                        <p>Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam ante ac quam</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- start main section -->
+    <section class="first-main-section d-flex justify-start align-start">
+        <div class="container">
+            <div class="section-wrapper d-flex justify-start align-start">
+                <!-- start slider and tabs part -->
+                <div class="slider-tabs-wrapper justify-start align-start flex-column">
+                    <!-- slider -->
+                    <div class="slides-wrapper d-flex justify-center align-center">
+                        <!-- slide one -->
+                        <div class="slide d-flex justify-center align-center position-relative">
+                            <div class="article-headline d-flex justify-center align-center position-absolute w-100">
+                                <p class="font-bold text-white">Article headline goes here</p>
+                            </div>
+                            <img src="images/bg/slide-1.jpg" alt="building">
+                        </div>
+                        <!-- slide two -->
+                        <div class="slide d-flex justify-center align-center position-relative">
+                            <div class="article-headline d-flex justify-center align-center position-absolute w-100">
+                                <p class="font-bold text-white">Article headline goes here</p>
+                            </div>
+                            <img src="images/bg/slide-2.jpg" alt="building">
+                        </div>
+                        <!-- slide three -->
+                        <div class="slide d-flex justify-center align-center position-relative">
+                            <div class="article-headline d-flex justify-center align-center position-absolute w-100">
+                                <p class="font-bold text-white">Article headline goes here</p>
+                            </div>
+                            <img src="images/bg/slide-3.jpg" alt="building">
+                        </div>
+                        <!-- slide four -->
+                        <div class="slide d-flex justify-center align-center position-relative">
+                            <div class="article-headline d-flex justify-center align-center position-absolute w-100">
+                                <p class="font-bold text-white">Article headline goes here</p>
+                            </div>
+                            <img src="images/bg/slide-4.jpg" alt="building">
+                        </div>
+                    </div>
+                    <!-- tabs -->
+                    <div class="tabs d-flex justify-center align-center">
+                        <div class="simple-tab d-flex justify-center align-center flex-column w-100">
+                            <ul class="d-flex justify-start align-center w-100">
+                                <li class="d-flex justify-center align-center active text-uppercase font-size-11">
+                                    <a class="d-flex justify-center align-center position-relative">
+                                        <span>stocks in brief</span>
+                                    </a>
+                                </li>
+                                <li class="text-uppercase d-flex justify-center align-center font-size-11">
+                                    <a class="d-flex justify-center align-center position-relative">
+                                        <span>latest feeds</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tabs-wrapper d-flex justify-center align-center flex-column w-100">
+                                <!-- first tab -->
+                                <div class="active d-flex justify-center align-center w-100">
+                                    <div class="single-stock d-flex justify-between align-center">
+                                        <p class="text-blue">BHP Billiton (BHP)</p>
+                                        <span>($34.87)</span>
+                                    </div>
+                                    <div class="single-stock d-flex justify-between align-center">
+                                        <p class="text-blue">Quantas (QTS)</p>
+                                        <span>($12.10)</span>
+                                    </div>
+                                    <div class="single-stock d-flex justify-between align-center">
+                                        <p class="text-blue">Rio Tinto (RIO)</p>
+                                        <span>($74.00)</span>
+                                    </div>
+                                    <div class="single-stock d-flex justify-between align-center">
+                                        <p class="text-blue">Aristacrat</p>
+                                    </div>
+                                    <div class="updating-date d-flex justify-between align-center">
+                                        <p>Updated 08 Mar10, 4:00:00 PM AEST</p>
+                                        <a class="d-flex justify-center align-center position-relative pointer font-size-11 text-blue">
+                                            <img src="images/icons/right-arrow-stock.png" alt="right-arrow">
+                                            <span>More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- last tab -->
+                                <div class="d-flex justify-center align-center w-100">
+                                    <div class="single-stock d-flex justify-between align-center">
+                                        <p>BHP Billiton (BHP)</p>
+                                        <span>($34.87)</span>
+                                    </div>
+                                    <div class="single-stock d-flex justify-between align-center">
+                                        <p>Quantas (QTS)</p>
+                                        <span>($12.10)</span>
+                                    </div>
+                                    <div class="single-stock d-flex justify-between align-center">
+                                        <p>Rio Tinto (RIO)</p>
+                                        <span>($74.00)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start stock in details part -->
+                <div class="stocks-in-detail d-flex justify-start align-start flex-column">
+                    <!-- first article -->
+                    <div class="single-article d-flex justify-start align-start flex-column">
+                        <div class="headline d-flex justify-center align-center">
+                            <p class="font-regular text-uppercase">stocks in detail</p>
+                            <img src="images/icons/icon-rss.png" alt="rss-icon">
+                        </div>
+                        <h1 class="font-regular text-blue">Article Heading goes here</h1>
+                        <div class="article-content d-flex justify-start align-center">
+                            <p>
+                                <span class="position-relative">24 Jan 10</span>
+                                <a href="#" class="font-bold position-relative font-size-13 text-orange">Buy 2.70</a> Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit. Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam.</p>
+                        </div>
+                    </div>
+                    <!-- second article -->
+                    <div class="single-article d-flex justify-start align-start flex-column">
+                        <div class="headline d-flex justify-center align-center">
+                            <p class="font-regular text-uppercase">investor's college</p>
+                        </div>
+                        <h1 class="font-regular text-blue">Article Heading goes here</h1>
+                        <div class="article-content d-flex justify-start align-center">
+
+                            <p>
+                                <span class="position-relative">18 Jan 10</span>Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam, justo convallis luctus.</p>
+                        </div>
+                    </div>
+                    <!-- third article -->
+                    <div class="single-article d-flex justify-start align-start flex-column">
+                        <div class="headline d-flex justify-center align-center">
+                            <p class="font-regular text-uppercase">stock in detail</p>
+                        </div>
+                        <h1 class="font-regular text-blue">Article Heading goes here</h1>
+                        <div class="article-content d-flex justify-start align-center">
+
+                            <p>
+                                <span class="position-relative">18 Jan 10</span>Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam, justo convallis luctus.</p>
+                        </div>
+                    </div>
+                    <!-- fourth article -->
+                    <div class="single-article d-flex justify-start align-start flex-column">
+                        <div class="headline d-flex justify-center align-center">
+                            <p class="font-regular text-uppercase">stock in detail</p>
+                        </div>
+                        <h1 class="font-regular text-blue">Article Heading goes here</h1>
+                        <div class="article-content d-flex justify-start align-center">
+
+                            <p>
+                                <span class="position-relative">18 Jan 10</span>Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam, justo convallis luctus.</p>
+                        </div>
+                    </div>
+
+                    <!-- links wrapper -->
+                    <div class="stocks-in-detail-links d-flex justify-start align-start flex-column">
+                        <!-- first link -->
+                        <a href="#" class="d-flex justify-start align-center">
+                            <img src="images/icons/right-arrow-stock.png" alt="arrow-right">
+                            <span class="text-blue">Nam blandit quam ut lacus. Quisque ornare</span>
+                        </a>
+                        <!-- second link -->
+                        <a href="#" class="d-flex justify-start align-center">
+                            <img src="images/icons/right-arrow-stock.png" alt="arrow-right">
+                            <span class="text-blue">Ligula. Phasellus tristique purus a augue condimentum adipiscing Suspendisse potenti</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- start membership and social media part -->
+                <div class="socialmedia d-flex justify-center align-center flex-column">
+                    <!-- start ipod part -->
+                    <div class="podcasts-and-video-tabs d-flex justify-center align-center flex-column w-100 background-size-100">
+                        <!-- tabs -->
+                        <div class="socialmedia-tabs-links d-flex justify-start align-center background-repeat-x w-100 background-size-100">
+                            <a href="#" class="text-white text-uppercase background-repeat-x transitioned active font-size-11 background-size-100">podcasts</a>
+                            <a href="#" class="text-white text-uppercase transitioned font-size-11 position-relative">video</a>
+                            <a href="#" class="text-white text-uppercase transitioned font-size-11 position-relative">blogs</a>
+                            <a href="#" class="text-white text-uppercase transitioned font-size-11">special reports</a>
+                        </div>
+                        <!-- podcasts-and-video content -->
+                        <div class="podcasts-and-video-content d-flex justify-start align-start background-repeat-x w-100 background-size-100">
+                            <!-- ipod img -->
+                            <div class="img-wrapper d-flex justify-start align-center">
+                                <img src="images/bg/listen now-img.png" alt="ipod">
+                            </div>
+                            <div class="media-links d-flex justify-start align-start flex-column">
+                                <a href="#" class="d-flex justify-start align-center text-white w-100 transitioned"><img class="rounded" src="images/icons/arrow-right-ipod.png" alt="right-arrow"><span>consectetuer adipiscing elit.</span></a>
+                                <a href="#" class="d-flex justify-start align-center text-white w-100 transitioned"><img class="rounded" src="images/icons/arrow-right-ipod.png" alt="right-arrow"><span>Praesent aliquam,  justo</span></a>
+                                <a href="#" class="d-flex justify-start align-center text-white w-100 transitioned"><img class="rounded" src="images/icons/arrow-right-ipod.png" alt="right-arrow"><span>convallis luctus rutrum, erat</span></a>
+                                <a href="#" class="d-flex justify-start align-center text-white w-100 transitioned"><img class="rounded" src="images/icons/arrow-right-ipod.png" alt="right-arrow"><span>nulla fermentum diam, at </span></a>
+                                <a href="#" class="d-flex justify-start align-center text-white w-100 transitioned"><img class="rounded" src="images/icons/arrow-right-ipod.png" alt="right-arrow"><span>nonummy quam  ante ac quam </span></a>
+                                <a href="#" class="transitioned text-orange"><img src="images/icons/arrow-right.png" alt=""><span>More</span></a>
+                            </div>
+                            <!-- more button -->
+
+                        </div>
+                    </div>
+
+                    <!-- start membership renewal part -->
+                    <div class="membership d-flex justify-between align-start w-100">
+                        <div class="membership-content-wrapper d-flex justify-start align-start flex-column">
+                            <h1 class="text-uppercase"><span class="text-white">membership</span> renewal</h1>
+                            <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit.</p>
+                        </div>
+                        <div class="membership-img-wrapper d-flex justify-center align-center">
+                            <img src="images/icons/renew.png" class="w-100 h-100" alt="renew-now">
+                        </div>
+                    </div>
+
+                    <!-- start social media icons -->
+                    <div class="follow-us d-flex justify-start align-center w-100">
+                        <div class="follow-text d-flex justify-center align-center">
+                            <p class="font-size-11">Follow us on:</p>
+                        </div>
+                        <div class="follow-links d-flex justify-center align-center">
+                            <a href="#" class="d-flex justify-center align-center text-black font-size-11"><img src="images/icons/icon-fb.png" alt="facebook"><span>Facebook</span></a>
+                            <a href="#" class="d-flex justify-center align-center text-black font-size-11"><img src="images/icons/icon-twitter.png" alt="twitter"><span>Twitter</span></a>
+                            <a href="#" class="d-flex justify-center align-center text-black font-size-11"><img src="images/icons/icon-rss.png" alt=""><span>RSS</span></a>
+                        </div>
+                    </div>
+
+                    <!-- start tabs part -->
+                    <div class="experts-tabs d-flex justify-center align-center w-100">
+                        <div class="simple-tab d-flex justify-center align-center flex-column w-100">
+                            <ul class="d-flex justify-start align-center w-100">
+                                <li class="text-uppercase d-flex justify-center align-center active font-size-11">
+                                    <a class="d-flex justify-center align-center">ask the experts</a>
+                                </li>
+                                <li class="text-uppercase d-flex justify-center align-center font-size-11">
+                                    <a class="d-flex justify-center align-center">coming up</a>
+                                </li>
+                            </ul>
+                            <div class="experts-tabs-wrapper d-flex justify-center align-center flex-column w-100">
+                                <!-- first tab -->
+                                <div class="active d-flex justify-center align-center w-100">
+                                    <div class="single-question d-flex justify-start align-center">
+                                        <a href="#" class="d-flex justify-center align-center transitioned text-blue">
+                                            <img src="images/icons/arrow-right-tab.png" alt="arrow-right">
+                                            <span>Justo convallis luctus rutrum, erat nulla</span>
+                                        </a>
+                                    </div>
+                                    <div class="single-question d-flex justify-start align-center">
+                                        <a href="#" class="d-flex justify-center align-center transitioned text-blue">
+                                            <img src="images/icons/arrow-right-tab.png" alt="arrow-right">
+                                            <span>Germentum diam, at nonummy quam  ante ac</span>
+                                        </a>
+                                    </div>
+                                    <div class="single-question d-flex justify-start align-center">
+                                        <a href="#" class="d-flex justify-center align-center transitioned text-blue">
+                                            <img src="images/icons/arrow-right-tab.png" alt="arrow-right">
+                                            <span>Wuam. Maecenas urna purus, fermentum id,</span>
+                                        </a>
+                                    </div>
+                                    <div class="single-question d-flex justify-start align-center last-question">
+                                        <a href="#" class="d-flex justify-center align-center transitioned text-blue">
+                                            <img src="images/icons/arrow-right-tab.png" alt="arrow-right">
+                                            <span>Molestie in, commodo  porttitor</span>
+                                        </a>
+                                    </div>
+                                    <div class="more d-flex justify-end align-center font-size-11 text-blue">
+                                        <a class="d-flex justify-end align-center position-relative pointer transitioned">
+                                            <img src="images/icons/blue-right-arrow.png" alt="right-arrow">
+                                            <span>More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- last tab -->
+                                <div class="d-flex justify-center align-center w-100">
+                                    <div class="single-question d-flex justify-start align-center">
+                                        <a href="#" class="d-flex justify-center align-center">
+                                            <img src="images/icons/arrow-right-tab.png" alt="arrow-right">
+                                            <span>Molestie in, commodo  porttitor</span>
+                                        </a>
+                                    </div>
+                                    <div class="single-question d-flex justify-start align-center">
+                                        <a href="#" class="d-flex justify-center align-center">
+                                            <img src="images/icons/arrow-right-tab.png" alt="arrow-right">
+                                            <span>Molestie in, commodo  porttitor</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- start feature spotlights -->
+    <section class="feature-spotlight d-flex justify-center align-center flex-column background-size-100">
+        <div class="container">
+            <div class="feature-spotlight-intro d-flex justify-start align-center">
+                <h2 class="text-uppercase font-size-11">feature spotlight</h2>
+            </div>
+            <div class="feature-spotlight-wrapper d-flex justify-center align-center">
+                <div class="">
+                    <img src="images/bg/image-1.png" alt="image-1">
+                    <p class="d-flex justify-start align-center font-size-11"><span class="text-uppercase">announcement:</span><a href="#" class="text-blue">Title of goes here(328kb)</a></p>
+                </div>
+                <div class="">
+                    <img src="images/bg/image-2.png" alt="image-2">
+                    <p class="d-flex justify-start align-center font-size-11"><span class="text-uppercase">pdf</span>:<a href="#" class="text-blue">Title of goes here(328kb)</a></p>
+                </div>
+                <div class="">
+                    <img src="images/bg/image-3.png" alt="image-3">
+                    <p class="d-flex justify-start align-center font-size-11"><span class="text-uppercase">article</span>:<a href="#" class="text-blue">Justo convallis luctus</a></p>
+                </div>
+                <div class="">
+                    <img src="images/bg/image-4.png" alt="image-4">
+                    <p class="d-flex justify-start align-center font-size-11"><span class="text-uppercase">article</span>:<a href="#" class="text-blue">Consectetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum</a></p>
+                </div>
+                <div class="">
+                    <img src="images/bg/image-5.png" alt="image-5">
+                    <p class="d-flex justify-start align-center font-size-11"><span class="text-uppercase">video:</span><a href="#" class="text-blue">Video title goes here</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jQuery.easyTabs.js"></script>
+    <script src="js/main.js" async defer></script>
+</body>
+
 </html>
