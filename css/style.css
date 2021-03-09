@@ -16,6 +16,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('../fonts/TimesNewRomanPSMT.eot');
+    src: url('../fonts/TimesNewRomanPSMT.eot?#iefix') format('embedded-opentype'), url('../fonts/TimesNewRomanPSMT.woff2') format('woff2'), url('../fonts/TimesNewRomanPSMT.woff') format('woff'), url('../fonts/TimesNewRomanPSMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     outline: none;
     box-sizing: border-box;
@@ -196,8 +205,16 @@ ul {
     font-size: 11px;
 }
 
+.font-size-12 {
+    font-size: 12px;
+}
+
 .font-size-13 {
     font-size: 13px;
+}
+
+.font-times {
+    font-family: 'Times New Roman';
 }
 
 
@@ -977,7 +994,7 @@ header {
 
 .feature-spotlight {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 14px;
     padding: 14px 0 11px;
     background-image: url(../images/bg/feature-spotlight-bg.png);
 }
@@ -1002,4 +1019,244 @@ header {
 
 .feature-spotlight>div p {
     display: block;
+}
+
+
+/* start stock research section */
+
+.stock-research-links {
+    padding: 0 0 0 16px;
+    border-bottom: 1px dotted #c2c2c2;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 18px;
+}
+
+.stock-research-links h1 {
+    font-size: 22px;
+    padding: 12px 18px 12px 0;
+    border-right: 1px solid #c2c2c2;
+    line-height: 16px;
+}
+
+.stock-research-links a {
+    padding: 0 15px;
+    line-height: 10px;
+}
+
+.stock-research-links a:not(:last-of-type) {
+    border-right: 1px solid #336699;
+}
+
+.stock-research-first-col {
+    margin-right: 35px;
+}
+
+
+/* start PHP single new */
+
+.php-single-new {
+    width: 400px;
+    margin: 0 0 23px 19px;
+}
+
+.single-new-img-wrapper {
+    width: 150px;
+    height: 98px;
+    margin-right: 17px;
+}
+
+.single-new-content-wrapper {
+    width: 235px;
+}
+
+.single-new-content-wrapper h1 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+
+.single-new-content-wrapper p {
+    line-height: 18px;
+}
+
+.single-new-content-wrapper p span {
+    color: #666666;
+}
+
+
+/* start single new-links-wrapper */
+
+.stock-news-links-wrapper a {
+    margin-bottom: 6px;
+    line-height: 13px;
+}
+
+.stock-news-links-wrapper a span:first-of-type {
+    color: #666666;
+    margin-right: 8px;
+}
+
+.stock-news-links-wrapper a img {
+    margin-right: 6px;
+}
+
+
+/* start video wrapper */
+
+.stock-video-wrapper {
+    width: 200px;
+    margin-right: 41px;
+}
+
+.stock-video-headline {
+    background-image: url(../images/bg/video-headline-background.png);
+    border-bottom: 1px solid #ffffff;
+    padding: 6px 0 8px 11px;
+}
+
+.stock-video-headline p {
+    color: #999999;
+    line-height: 10px;
+}
+
+.stock-video-image {
+    border-bottom: 1px solid #ffffff;
+}
+
+.stock-video-description {
+    background-color: #f1f1f1;
+    padding: 10px 0 10px 11px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.stock-video-description p {
+    line-height: 12px;
+}
+
+
+/* start articles tabs */
+
+.stocks-articles {
+    width: 309px;
+    border: 1px solid #c1c1c1;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.featured-articles-headline {
+    background-color: #f1f1f1;
+    padding: 10px 21px 10px 12px;
+    border-bottom: 1px solid #c1c1c1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+/* .featured-articles-headline {
+    line-height: 10px;
+} */
+
+.featured-articles-headline p {
+    line-height: 10px;
+}
+
+.featured-articles-headline a {
+    line-height: 9px;
+}
+
+.featured-articles-headline a img {
+    margin-right: 4px;
+}
+
+
+/* featured links */
+
+.featured-articles-links {
+    padding: 11px 15px 17px 10px;
+}
+
+.featured-articles-links p {
+    margin-bottom: 3px;
+    line-height: 13px;
+}
+
+.featured-articles-links p:last-of-type {
+    margin-bottom: 0;
+}
+
+.featured-articles-links p span {
+    margin-right: 8px;
+    line-height: 9px;
+}
+
+.featured-articles-links p a {
+    line-height: 13px;
+}
+
+.featured-articles-links p a:hover {
+    color: #1c9fec;
+}
+
+.bulletin-board {
+    border-top: 1px solid #e3e3e3;
+    padding: 9px 0 19px;
+}
+
+.bulletin-board-headline {
+    padding: 0 22px 9px 12px;
+    margin-bottom: 14px;
+    border-bottom: 1px dotted #e3e3e3;
+}
+
+.bulletin-board-headline a img {
+    margin-right: 4px;
+}
+
+.bulletin-board-links {
+    padding-left: 18px;
+}
+
+.bulletin-board-links a {
+    margin-bottom: 3px;
+}
+
+.bulletin-board-links a:hover {
+    color: #1c9fec;
+}
+
+.bulletin-board-links a:last-of-type {
+    margin-bottom: 0;
+}
+
+.bulletin-board-links a img {
+    margin-right: 9px;
+}
+
+
+/* start ivestors college section */
+
+.investors-college-links {
+    padding: 0 0 0 16px;
+    border-bottom: 1px dotted #c2c2c2;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 18px;
+}
+
+.investors-college-links h1 {
+    font-size: 22px;
+    padding: 12px 18px 12px 0;
+    border-right: 1px solid #c2c2c2;
+    line-height: 16px;
+}
+
+.investors-college-links a {
+    padding: 0 15px;
+    line-height: 10px;
+}
+
+.investors-college-links a:not(:last-of-type) {
+    border-right: 1px solid #336699;
 }

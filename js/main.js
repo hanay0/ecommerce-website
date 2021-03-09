@@ -1,12 +1,3 @@
-// special alert slider
-// $(document).ready(function() {
-//     $('.alert-description').slick({
-//         autoplay: true,
-//         autoplaySpeed: 2000,
-//         arrows: false
-//     });
-// });
-
 // buildings slider
 $('.slides-wrapper').slick({
     dots: true,
