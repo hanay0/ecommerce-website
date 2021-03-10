@@ -1024,6 +1024,10 @@ header {
 
 /* start stock research section */
 
+.stock-research {
+    margin-bottom: 12px;
+}
+
 .stock-research-links {
     padding: 0 0 0 16px;
     border-bottom: 1px dotted #c2c2c2;
@@ -1105,7 +1109,7 @@ header {
 
 .stock-video-wrapper {
     width: 200px;
-    margin-right: 41px;
+    margin: 18px 41px 0 0;
 }
 
 .stock-video-headline {
@@ -1130,7 +1134,7 @@ header {
 }
 
 .stock-video-description p {
-    line-height: 12px;
+    line-height: 14px;
 }
 
 
@@ -1259,4 +1263,175 @@ header {
 
 .investors-college-links a:not(:last-of-type) {
     border-right: 1px solid #336699;
+}
+
+.investors-college-first-col {
+    margin-right: 35px;
+}
+
+
+/* start single new-links-wrapper */
+
+.investors-college-links-wrapper a {
+    margin-bottom: 6px;
+    line-height: 13px;
+}
+
+.investors-college-links-wrapper a span:first-of-type {
+    color: #666666;
+    margin-right: 8px;
+}
+
+.investors-college-links-wrapper a img {
+    margin-right: 6px;
+}
+
+
+/* start insight wrapper */
+
+.investors-insight-wrapper {
+    width: 200px;
+    margin-right: 41px;
+}
+
+.investors-insight-headline {
+    background-image: url(../images/bg/video-headline-background.png);
+    border-bottom: 1px solid #ffffff;
+    padding: 6px 0 8px 11px;
+}
+
+.investors-insight-headline p {
+    color: #999999;
+    line-height: 10px;
+}
+
+.investors-insight-content {
+    border-bottom: 1px solid #c3c3c3;
+    padding: 10px 18px 10px 20px;
+    background-color: #f1f1f1;
+}
+
+.investors-image-wrapper,
+.investors-content-wrapper {
+    width: 84px;
+}
+
+.investors-image-wrapper {
+    /* align-self: stretch; */
+    width: 55px;
+    height: 71px;
+    margin-right: 22px;
+}
+
+.investors-image-wrapper img {
+    box-shadow: 0px 15px 20px -12px #0b0b0b;
+}
+
+.investors-content-wrapper p {
+    display: block;
+    line-height: 18px;
+}
+
+.investors-insight-description {
+    background-color: #f1f1f1;
+    padding: 10px 0 10px 11px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.investors-insight-description p {
+    line-height: 14px;
+}
+
+
+/* start tabs part */
+
+.top-rated-tabs {
+    margin-bottom: 7px;
+}
+
+.top-rated-tabs-wrapper .simple-tab ul {
+    margin-bottom: 8px;
+}
+
+.top-rated-tabs .simple-tab>ul>li a::after {
+    display: none;
+}
+
+.top-rated-tabs-wrapper .single-question {
+    margin-bottom: 6px;
+    padding: 0 7px;
+}
+
+.top-rated-tabs-wrapper .single-question.last-question {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 9px;
+}
+
+.top-rated-tabs-wrapper .single-question a {
+    font-size: 12px;
+}
+
+.top-rated-tabs-wrapper .single-question a:hover {
+    color: #1c9fec;
+}
+
+.top-rated-tabs-wrapper .single-question a span {
+    line-height: 13px;
+}
+
+.top-rated-tabs-wrapper .single-question a img {
+    margin-right: 8px;
+}
+
+.top-rated-tabs-wrapper .more {
+    padding-right: 16px;
+}
+
+.top-rated-tabs-wrapper .more a img {
+    margin-right: 5px;
+}
+
+.top-rated-tabs-wrapper.more a span {
+    line-height: 9px;
+}
+
+.top-rated-tabs .simple-tab>div {
+    background-color: #ffffff;
+    padding: 9px 0;
+}
+
+
+/* start membership part */
+
+.membership-renew {
+    background-color: #9fceec;
+    margin-bottom: 7px;
+    width: 309px;
+}
+
+.membership-renew-content-wrapper {
+    width: 193px;
+    margin-left: 12px;
+    padding: 15px 0 12px;
+}
+
+.membership-renew-content-wrapper h1 {
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.membership-renew-content-wrapper p {
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.membership-renew-img-wrapper {
+    width: 79px;
+    margin-right: 5px;
+    align-self: stretch;
+}
+
+.membership-renew-img-wrapper img {
+    width: 65px;
+    height: 27px;
 }
