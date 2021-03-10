@@ -1612,9 +1612,16 @@ header {
     margin-bottom: 0;
 }
 
-.blogs-links p span {
+.blogs-links p span:first-of-type {
     margin-right: 8px;
     line-height: 9px;
+}
+
+
+/* numbers of posts inside parentheses */
+
+.blogs-links p span:last-of-type {
+    margin-left: auto;
 }
 
 .blogs-links p a {
@@ -1623,6 +1630,10 @@ header {
 
 .blogs-links p a:hover {
     color: #1c9fec;
+}
+
+.blogs-links p a span {
+    margin-left: auto;
 }
 
 
@@ -1636,7 +1647,7 @@ header {
 .latest-comments-headline {
     padding: 0 22px 9px 12px;
     margin-bottom: 14px;
-    border-bottom: 1px dotted #e3e3e3;
+    border-bottom: 1px dotted #b2b2b2;
 }
 
 .latest-comments-headline a img {
