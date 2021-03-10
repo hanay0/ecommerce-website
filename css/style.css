@@ -902,6 +902,7 @@ header {
 .membership-img-wrapper {
     width: 79px;
     margin-right: 5px;
+    align-self: stretch;
 }
 
 
@@ -1052,7 +1053,10 @@ header {
 }
 
 .stock-research-first-col {
-    margin-right: 35px;
+    width: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 35px 0 19px;
 }
 
 
@@ -1060,7 +1064,7 @@ header {
 
 .php-single-new {
     width: 400px;
-    margin: 0 0 23px 19px;
+    margin-bottom: 23px;
 }
 
 .single-new-img-wrapper {
@@ -1261,7 +1265,10 @@ header {
 }
 
 .investors-college-first-col {
-    margin-right: 35px;
+    width: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 35px 0 19px;
 }
 
 
@@ -1340,6 +1347,10 @@ header {
 
 /* start tabs part */
 
+.tabs-and-renew-col {
+    width: 309px;
+}
+
 .top-rated-tabs {
     margin-bottom: 7px;
 }
@@ -1401,7 +1412,6 @@ header {
 .membership-renew {
     background-color: #9fceec;
     margin-bottom: 7px;
-    width: 309px;
 }
 
 .membership-renew-content-wrapper {
@@ -1462,16 +1472,17 @@ header {
 }
 
 .podcasts-and-videos-first-col {
-    margin-right: 35px;
-    width: 405px;
+    width: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 35px 0 19px;
 }
 
 
 /* start reporting single new */
 
 .reporting-single-new {
-    /* width: 400px; */
-    margin: 0 0 23px 19px;
+    margin-bottom: 23px;
 }
 
 .reporting-single-new .single-new-img-wrapper {
@@ -1500,10 +1511,6 @@ header {
 
 
 /* start single new-links-wrapper */
-
-.podcasts-news-links-wrapper {
-    margin-left: 19px;
-}
 
 .podcasts-news-links-wrapper a {
     margin-bottom: 2px;
@@ -1672,4 +1679,76 @@ header {
 
 .latest-comments-links a img {
     margin-right: 9px;
+}
+
+
+/* start footer */
+
+footer {
+    background-image: url(../images/bg/footer-background.png);
+}
+
+footer h1 {
+    color: #f1f1f1;
+}
+
+footer p {
+    color: #999999;
+    line-height: 20px;
+}
+
+.footer-content-wrapper {
+    padding: 25px 0 25px 18px;
+}
+
+.footer-content {
+    margin-right: 254px;
+}
+
+.footer-content h1 {
+    margin-bottom: 6px;
+    line-height: 14px;
+}
+
+.footer-content-first-col {
+    margin-right: 41px;
+}
+
+.footer-content-second-col {
+    margin-right: 36px;
+}
+
+.footer-content-first-col,
+.footer-content-second-col,
+.footer-content-third-col {
+    width: 135px;
+    align-self: stretch;
+}
+
+.footer-content-third-col .third-col-top {
+    margin-bottom: 35px;
+}
+
+
+/* start footer content part */
+
+.footer-details {
+    width: 310px;
+}
+
+.details-first-col {
+    margin-right: 36px;
+    width: 150px;
+}
+
+.details-first-col-top {
+    margin-bottom: 28px;
+}
+
+.details-second-col {
+    align-self: stretch;
+}
+
+.details-second-col-top p:last-of-type {
+    color: #f17f02;
 }
